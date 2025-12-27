@@ -120,20 +120,12 @@
 
 ### 📊 Estatísticas
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=fredmotta00&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
-
+![Karanalpe Status](https://github-readme-stats.vercel.app/api?FredMotta00=karanalpe&show_icons=true)
 <img 
       align="left" 
       alt="GitHub Stats" 
       height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=fredmotta00&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=FredMotta00&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
 
 </p>
