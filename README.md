@@ -120,15 +120,17 @@
 
 ### 📊 Estatísticas
 
-![Karanalpe Status](https://github-readme-stats.vercel.app/api?FredMotta00=karanalpe&show_icons=true)
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=FredMotta00&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?FredMotta00=anuraghazra&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
   />
-
-</p>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?FredMotta00=anuraghazra&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?FredMotta00=anuraghazra&show_icons=true" />
+</picture>
 
 <div> 
   <a href="https://www.instagram.com/cairesfred1/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
