@@ -10,6 +10,7 @@
 <div align="center">
   <img align="center" alt="Top Language" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FredMotta00&theme=maroongold"/>
 </div>
+
  
 <img 
     align="left" 
