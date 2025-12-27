@@ -1,8 +1,7 @@
-## Oi! Sou Frederico Motta
-## Tenho 20 anos, e sou apaixonado por programação, sou desenvolvedor Back-End.
+## Frederico Motta
 
 <div align="center" width="100%">
-  <img src="https://readme-typing-svg.demolab.com?font=Iosevka&color=4b204b&width=900&size=22&center=true&lines=Sou+programador+Full+-+Stack;Seja+Bem+Vindo!" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Iosevka&color=b61bb6&width=900&size=22&center=true&lines=Sou+programador+Full+-+Stack;Seja+Bem+Vindo!" alt="Typing SVG"/>
 </div>
 
 <br>
