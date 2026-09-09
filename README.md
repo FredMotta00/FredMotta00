@@ -18,11 +18,10 @@
 <div align="center">
   <a href="https://github.com/FredMotta00?tab=overview">
     <img
-      src="https://img.shields.io/badge/View_Live_Contribution_Graph-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="View Frederico Motta's live contribution graph on GitHub"
+      src="./assets/github-activity.svg?v=2026-09-08"
+      alt="Frederico Motta's live GitHub activity card"
     />
   </a>
-  <p><sub>The official GitHub contribution graph below is the source of truth for my activity.</sub></p>
 </div>
 
 <br />

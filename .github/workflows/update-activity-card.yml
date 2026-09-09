@@ -1,0 +1,53 @@
+name: Update GitHub activity card
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-activity-card.yml"
+      - "assets/github-activity-background.png"
+      - "scripts/generate-activity-card.mjs"
+      - "scripts/generate-activity-card.test.mjs"
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-activity-card
+  cancel-in-progress: true
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Test card generator
+        run: node --test scripts/generate-activity-card.test.mjs
+
+      - name: Generate activity card
+        run: node scripts/generate-activity-card.mjs
+
+      - name: Commit updated card
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Activity card is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/github-activity.svg
+          git commit -m "chore: update GitHub activity card"
+          git push
