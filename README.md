@@ -16,10 +16,13 @@
 ## 📊 GitHub Activity
 
 <div align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FredMotta00&theme=maroongold&v=2026-09"
-    alt="FredMotta00's GitHub contribution summary"
-  />
+  <a href="https://github.com/FredMotta00?tab=overview">
+    <img
+      src="https://img.shields.io/badge/View_Live_Contribution_Graph-181717?style=for-the-badge&logo=github&logoColor=white"
+      alt="View Frederico Motta's live contribution graph on GitHub"
+    />
+  </a>
+  <p><sub>The official GitHub contribution graph below is the source of truth for my activity.</sub></p>
 </div>
 
 <br />
