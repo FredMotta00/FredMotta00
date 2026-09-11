@@ -18,7 +18,7 @@
 <div align="center">
   <a href="https://github.com/FredMotta00?tab=overview">
     <img
-      src="./assets/github-activity.svg?v=2026-09-10"
+      src="./assets/github-activity.svg?v=2026-09-11"
       alt="Frederico Motta's live GitHub activity card"
     />
   </a>
